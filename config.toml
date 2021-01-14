@@ -1,4 +1,4 @@
-baseURL = "http://illiterate.info/"
+baseURL = "http://blog.illiterate.info/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "New Hugo Site"
 theme = "hugo-ivy"
