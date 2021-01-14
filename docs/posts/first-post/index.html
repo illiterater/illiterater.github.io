@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>用hugo结合github建立个人静态网站 - New Hugo Site</title>
+    <meta property="og:title" content="用hugo结合github建立个人静态网站 - New Hugo Site">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="C:\Users\XXXXXX&amp;gt;hugo version Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z 本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site &amp;hellip;">
+      <meta property="og:description" content="C:\Users\XXXXXX&amp;gt;hugo version Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z 本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="posts">
+    <header class="masthead">
+      <h1><a href="/">New Hugo Site</a></h1>
+
+
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>用hugo结合github建立个人静态网站</h1>
+
+<h3>
+  2021-01-14</h3>
+<hr>
+
+
+      </header>
+
+
+
+<h1 id="hugo生成静态网页">hugo生成静态网页</h1>
+<h2 id="安装hugo">安装hugo</h2>
+<ol>
+<li>访问Github下载Hugo的应用程序，下载地址 <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></li>
+<li>windows请选择下载hugo_0.xx.0_Windows-64bit.zip</li>
+<li>下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中</li>
+<li>打开CMD，执行 hugo version 命令验证是否安装成功</li>
+</ol>
+<pre><code>C:\Users\XXXXXX&gt;hugo version
+Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z
+</code></pre><h2 id="本地hugo目录">本地hugo目录</h2>
+<ol>
+<li>新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中）
+$ hugo new site E:/website/second-blog</li>
+<li>命令执行后查看E:/website/second-blog目录，查看文件目录结构。</li>
+</ol>
+<pre><code>│  config.toml
+│
+├─archetypes
+│      default.md
+│
+├─content
+├─data
+├─layouts
+├─static
+└─themes
+</code></pre><h2 id="安装git">安装git</h2>
+<ol>
+<li>从git官网 <a href="https://git-scm.com/downloads/">https://git-scm.com/downloads/</a> 下载</li>
+<li>安装git</li>
+</ol>
+<h1 id="安装hugo主题">安装hugo主题</h1>
+<ol>
+<li>下载一个主题并加载到config.toml文件中 （CMD中）
+git clone <a href="https://github.com/yihui/hugo-ivy.git">https://github.com/yihui/hugo-ivy.git</a></li>
+<li>通过在 config.toml 配置使用：theme = &ldquo;hugo-ivy&rdquo;</li>
+</ol>
+<p>另一种方法（未尝试）：
+下载一个主题并加载到config.toml文件中：</p>
+<pre><code>git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+# Edit your config.toml configuration file
+# and add the Ananke theme.
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre><h2 id="生成新的文章-cmd中">生成新的文章 （CMD中）</h2>
+<p><code>hugo new posts/first-post.md</code>
+在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿：</p>
+<pre><code>---
+title: &quot;First Post&quot;
+date: 2021-01-14T14:38:08+08:00
+draft: true
+---
+</code></pre><p>在content/posts目录下打开并编辑，完成后去掉标记为草稿的这一行：draft: true</p>
+<h2 id="预览">预览</h2>
+<p>在cmd中使用如下命令建立本地服务器：</p>
+<blockquote>
+<p>hugo server</p>
+</blockquote>
+<p>在浏览器中输入网址http://localhost:1313/就可以在浏览器中查看网页效果了</p>
+<h2 id="发布">发布</h2>
+<p>没有问题了便可以使用如下命令：</p>
+<blockquote>
+<p>hugo</p>
+</blockquote>
+<p>如此一来网页便生成在默认的public子目录中了。</p>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+
