@@ -1,7 +1,6 @@
 ---
 title: "用hugo结合github建立个人静态网站"
 date: 2021-01-14T14:38:08+08:00
-draft: false
 ---
 # hugo生成静态网页
 
