@@ -82,21 +82,9 @@ draft: true
 ## 创建GitHub Pages site
 1. 在Github中添加一个空白repository，注意不要添加如README，.gitignore等文档。得到Github中该repository的网址：
 
-`illiterater.github.io`
+`illiterate.github.io`
 
-![](/img/newGitPage1.PNG)
-
-2. 在网站本地文档根目录中初始化git
-
-```
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/illiterater/illiterater.github.io.git
-git push -u origin master
-```
-
-注意`illiterater.github.io`后加上 **.git**
+![](newGitPage.PNG)
 
  
 ## 参考
