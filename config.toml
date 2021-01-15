@@ -1,5 +1,5 @@
-baseURL = "http://blog.illiterate.info/"
+baseURL = "https://blog.illiterate.info/"
 languageCode = "en-us"
-title = "New Hugo Site"
+title = "Yucheng's blog"
 theme = "hugo-ivy"
 publishDir = "docs"

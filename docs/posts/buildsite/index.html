@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>用hugo结合github建立个人静态网站 - Yucheng&#39;s blog</title>
+    <meta property="og:title" content="用hugo结合github建立个人静态网站 - Yucheng&#39;s blog">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="C:\Users\XXXXXX&amp;gt;hugo version Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z 本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site &amp;hellip;">
+      <meta property="og:description" content="C:\Users\XXXXXX&amp;gt;hugo version Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z 本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="posts">
+    <header class="masthead">
+      <h1><a href="/">Yucheng&#39;s blog</a></h1>
+
+
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>用hugo结合github建立个人静态网站</h1>
+
+<h3>
+  2021-01-14</h3>
+<hr>
+
+
+      </header>
+
+
+
+<h1 id="hugo生成静态网页">hugo生成静态网页</h1>
+<h2 id="安装hugo">安装hugo</h2>
+<ol>
+<li>访问Github下载Hugo的应用程序，下载地址 <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></li>
+<li>windows请选择下载hugo_0.xx.0_Windows-64bit.zip</li>
+<li>下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中</li>
+<li>打开CMD，执行 hugo version 命令验证是否安装成功</li>
+</ol>
+<pre><code>C:\Users\XXXXXX&gt;hugo version
+Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z
+</code></pre><h2 id="本地hugo目录">本地hugo目录</h2>
+<ol>
+<li>新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中）
+$ hugo new site E:/website/second-blog</li>
+<li>命令执行后查看E:/website/second-blog目录，查看文件目录结构。</li>
+</ol>
+<pre><code>│  config.toml
+│
+├─archetypes
+│      default.md
+│
+├─content
+├─data
+├─layouts
+├─static
+└─themes
+</code></pre><h2 id="安装git">安装git</h2>
+<ol>
+<li>从git官网 <a href="https://git-scm.com/downloads/">https://git-scm.com/downloads/</a> 下载</li>
+<li>安装git</li>
+</ol>
+<h1 id="安装hugo主题">安装hugo主题</h1>
+<ol>
+<li>下载一个主题并加载到config.toml文件中 （CMD中）</li>
+</ol>
+<p><code>git clone https://github.com/yihui/hugo-ivy.git</code></p>
+<ol start="2">
+<li>通过在 config.toml 配置使用：theme = &ldquo;hugo-ivy&rdquo;</li>
+</ol>
+<p>另一种方法（未尝试）：
+下载一个主题并加载到config.toml文件中：</p>
+<pre><code>git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+# Edit your config.toml configuration file
+# and add the Ananke theme.
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre><h2 id="生成新的文章-cmd中">生成新的文章 （CMD中）</h2>
+<p><code>hugo new posts/first-post.md</code>
+在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿：</p>
+<pre><code>---
+title: &quot;First Post&quot;
+date: 2021-01-14T14:38:08+08:00
+draft: true
+---
+</code></pre><p>在content/posts目录下打开并编辑，完成后去掉标记为草稿的这一行：draft: true</p>
+<h2 id="预览">预览</h2>
+<p>在cmd中使用如下命令建立本地服务器：</p>
+<blockquote>
+<p>hugo server</p>
+</blockquote>
+<p>在浏览器中输入网址http://localhost:1313/就可以在浏览器中查看网页效果了</p>
+<h2 id="发布">发布</h2>
+<p>没有问题了便可以使用如下命令：</p>
+<blockquote>
+<p>hugo</p>
+</blockquote>
+<p>如此一来网页便生成在默认的public子目录中了。</p>
+<h1 id="发布并托管到github">发布并托管到Github</h1>
+<h2 id="创建github-pages-site">创建GitHub Pages site</h2>
+<ol>
+<li>在Github中添加一个空白repository，注意不要添加如README，.gitignore等文档。得到Github中该repository的网址：</li>
+</ol>
+<p><code>illiterate.github.io</code></p>
+<p><img src="newGitPage.PNG" alt=""></p>
+<ol start="2">
+<li>使用/docs发布到master branch
+在config.toml中添加如下一行配置，使得生成的网页默认保存在/docs子目录下：</li>
+</ol>
+<p><code>publishDir = docs</code></p>
+<p>运行hugo命令后生成的网页文件将保存在/docs子目录下。以便将所有文档push到Github的master branch</p>
+<ol start="3">
+<li>在网站本地文档根目录中初始化git</li>
+</ol>
+<pre><code>git init
+git add .
+git commit -m &quot;first commit&quot;
+git remote add origin https://github.com/illiterater/illiterater.github.io.git
+git push -u origin master
+</code></pre><p>注意<code>illiterater.github.io</code>后加上 <strong>.git</strong></p>
+<ol start="4">
+<li>设置GitHub Pages选项
+进入Github对应repository的Settings标签菜单，在GitHub Pages选项的Source栏选择master branch /docs folder</li>
+</ol>
+<p><img src="GitPageSetting.PNG" alt=""></p>
+<ol start="5">
+<li>检查
+访问 <a href="http://illiterater.github.io">http://illiterater.github.io</a> 看到用Hugo生成的网页了</li>
+</ol>
+<h1 id="配置个人域名">配置个人域名</h1>
+<h2 id="购买域名设置域名解析">购买域名，设置域名解析</h2>
+<ol>
+<li>推荐<a href="https://www.namesilo.com/">namesilo.com</a></li>
+<li>设置域名解析，两种方法
+在<a href="https://www.namesilo.com/account_domain_manage_dns.php">Manage DNS</a>中</li>
+</ol>
+<ul>
+<li>绑定自己域名的根域名：增加两条&quot;A&quot;记录 192.30.252.153和192.30.252.154 （均为GitHub地址）</li>
+</ul>
+<p><img src="namesilo_domain_manage_a.PNG" alt=""></p>
+<ul>
+<li>绑定自己域名的二级域名：增加一条&quot;CNAME&quot;记录</li>
+</ul>
+<p><img src="namesilo_domain_manage_cname.PNG" alt=""></p>
+<ol start="3">
+<li>在GitHub Pages选项中设置Custom domain，下面为绑定二级域名</li>
+</ol>
+<p><img src="CustomDomain.PNG" alt=""></p>
+<p>完成后会在Github的<a href="https://github.com/illiterater/illiterater.github.io">repository</a>下生成CNAME文件</p>
+<ol start="4">
+<li>更新网站本地文档根目录</li>
+</ol>
+<p>由于Github的repository中新生成了CNAME文件，和本地目录不一致，需要远程同步到本地。</p>
+<p>在网站本地文档根目录中： <code>git pull origin master</code></p>
+<ol start="5">
+<li>更新文档并同步到网站，md文档更新后运行</li>
+</ol>
+<pre><code># Build the project. 
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+# Add changes to git.
+git add .
+
+# Commit changes. $msg is user defined message
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+</code></pre><p>还可以新增脚本 (git_update.bat)放在网站本地文档根目录中:</p>
+<pre><code>#! /web
+
+hugo
+git add .
+git commit -m &quot;Publishing to Github&quot;
+git push origin master
+</code></pre><h1 id="配置cloudflare以使用https">配置CloudFlare以使用HTTPs</h1>
+<p>Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示网页不受信任。<a href="https://www.cloudflare.com/">CloudFlare</a>为我们提供了一套免费的解决方案！</p>
+<ol>
+<li>注册CloudFlare，输入自定义的域名</li>
+<li>选择免费套餐，按提示完成</li>
+<li>按提示去namesilo.com的域名管理页面中更新 NameServers</li>
+<li>回到CloudFlare，检查 SSL/TLS</li>
+</ol>
+<p><img src="SSL.PNG" alt=""></p>
+<ol start="5">
+<li>打开&quot;Page Rules&quot;页面，点击&quot;Create Page Rule&quot;</li>
+</ol>
+<p><img src="PageRule.PNG" alt=""></p>
+<ol start="6">
+<li>打开&quot;DNS&quot;页面，检查&quot;DNS management for <em>yoursite</em>&quot;</li>
+</ol>
+<h2 id="参考文档">参考文档</h2>
+<ul>
+<li>[1] <a href="https://imroc.io/posts/hugo/building-website-for-free-using-hugo-and-github-pages/">利用Hugo和Github Pages免费创建并永久托管网站</a></li>
+<li>[2] <a href="https://www.cnblogs.com/chenxuhua/p/hugo-blog-chinese-user-guide.html">Hugo 博客中文指南（基础教程）</a></li>
+<li>[3] <a href="https://www.youendless.com/post/hugo_base/">Hugo入门详细教程</a></li>
+<li>[4] <a href="https://yihui.org/cn/about/">yihui.org</a></li>
+<li>[5] <a href="https://git-scm.com/book/zh/v2">Pro Git book</a></li>
+<li>[6] <a href="https://blog.csdn.net/JackLiu16/article/details/79751900?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control">Git如何把本地代码推送到远程仓库</a></li>
+<li>[7] <a href="https://zhuanlan.zhihu.com/p/63866401">有哪些国外便宜域名注册商是值得推荐的？</a></li>
+<li>[8] <a href="https://www.jianshu.com/p/191d1e21f7ed/">Markdown基本语法</a></li>
+</ul>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

@@ -82,11 +82,18 @@ draft: true
 ## 创建GitHub Pages site
 1. 在Github中添加一个空白repository，注意不要添加如README，.gitignore等文档。得到Github中该repository的网址：
 
-`illiterater.github.io`
+`illiterate.github.io`
 
-![](/img/newGitPage1.PNG)
+![](newGitPage.PNG)
 
-2. 在网站本地文档根目录中初始化git
+2. 使用/docs发布到master branch
+在config.toml中添加如下一行配置，使得生成的网页默认保存在/docs子目录下：
+
+`publishDir = docs`
+
+运行hugo命令后生成的网页文件将保存在/docs子目录下。以便将所有文档push到Github的master branch
+
+3. 在网站本地文档根目录中初始化git
 
 ```
 git init
@@ -98,8 +105,82 @@ git push -u origin master
 
 注意`illiterater.github.io`后加上 **.git**
 
- 
-## 参考
+4. 设置GitHub Pages选项
+进入Github对应repository的Settings标签菜单，在GitHub Pages选项的Source栏选择master branch /docs folder
+
+![](GitPageSetting.PNG)
+
+5. 检查
+访问 http://illiterater.github.io 看到用Hugo生成的网页了
+
+# 配置个人域名
+## 购买域名，设置域名解析
+1. 推荐[namesilo.com](https://www.namesilo.com/)
+2. 设置域名解析，两种方法
+在[Manage DNS](https://www.namesilo.com/account_domain_manage_dns.php)中
+- 绑定自己域名的根域名：增加两条"A"记录 192.30.252.153和192.30.252.154 （均为GitHub地址）
+
+![](namesilo_domain_manage_a.PNG)
+
+
+- 绑定自己域名的二级域名：增加一条"CNAME"记录
+
+![](namesilo_domain_manage_cname.PNG)
+
+3. 在GitHub Pages选项中设置Custom domain，下面为绑定二级域名
+
+![](CustomDomain.PNG)
+
+完成后会在Github的[repository](https://github.com/illiterater/illiterater.github.io)下生成CNAME文件
+
+4. 更新网站本地文档根目录
+
+由于Github的repository中新生成了CNAME文件，和本地目录不一致，需要远程同步到本地。
+
+在网站本地文档根目录中： `git pull origin master`
+
+5. 更新文档并同步到网站，md文档更新后运行
+
+``` 
+# Build the project. 
+hugo # if using a theme, replace by `hugo -t <yourtheme>`
+
+# Add changes to git.
+git add .
+
+# Commit changes. $msg is user defined message
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master
+```
+还可以新增脚本 (git_update.bat)放在网站本地文档根目录中:
+```
+#! /web
+
+hugo
+git add .
+git commit -m "Publishing to Github"
+git push origin master
+```
+
+# 配置CloudFlare以使用HTTPs
+Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示网页不受信任。[CloudFlare](https://www.cloudflare.com/)为我们提供了一套免费的解决方案！
+
+1. 注册CloudFlare，输入自定义的域名
+2. 选择免费套餐，按提示完成
+3. 按提示去namesilo.com的域名管理页面中更新 NameServers
+4. 回到CloudFlare，检查 SSL/TLS
+
+![](SSL.PNG)
+
+5. 打开"Page Rules"页面，点击"Create Page Rule"
+
+![](PageRule.PNG)
+
+6. 打开"DNS"页面，检查"DNS management for *yoursite*"
+
+## 参考文档
 
 - [1] [利用Hugo和Github Pages免费创建并永久托管网站](https://imroc.io/posts/hugo/building-website-for-free-using-hugo-and-github-pages/)
 - [2] [Hugo 博客中文指南（基础教程）](https://www.cnblogs.com/chenxuhua/p/hugo-blog-chinese-user-guide.html)
@@ -107,4 +188,8 @@ git push -u origin master
 - [4] [yihui.org](https://yihui.org/cn/about/)
 - [5] [Pro Git book](https://git-scm.com/book/zh/v2)
 - [6] [Git如何把本地代码推送到远程仓库](https://blog.csdn.net/JackLiu16/article/details/79751900?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
- 
+- [7] [有哪些国外便宜域名注册商是值得推荐的？](https://zhuanlan.zhihu.com/p/63866401)
+- [8] [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed/)
+
+
+

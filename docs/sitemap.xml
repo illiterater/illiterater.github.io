@@ -3,31 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.illiterate.info/</loc>
+    <loc>https://blog.illiterate.info/posts/</loc>
     <lastmod>2021-01-14T14:38:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.illiterate.info/posts/</loc>
+    <loc>https://blog.illiterate.info/</loc>
     <lastmod>2021-01-14T14:38:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.illiterate.info/posts/first-post/</loc>
+    <loc>https://blog.illiterate.info/posts/buildsite/</loc>
     <lastmod>2021-01-14T14:38:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.illiterate.info/posts/secondpost/</loc>
-    <lastmod>2021-01-14T14:38:08+08:00</lastmod>
+    <loc>https://blog.illiterate.info/categories/</loc>
   </url>
   
   <url>
-    <loc>http://blog.illiterate.info/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://blog.illiterate.info/tags/</loc>
+    <loc>https://blog.illiterate.info/tags/</loc>
   </url>
   
 </urlset>
