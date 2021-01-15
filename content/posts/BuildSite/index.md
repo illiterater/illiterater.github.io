@@ -34,7 +34,7 @@ Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T
 1. 从git官网 https://git-scm.com/downloads/ 下载
 2. 安装git
 
-# 安装hugo主题
+## 安装hugo主题
 1. 下载一个主题并加载到config.toml文件中 （CMD中）
 
  `git clone https://github.com/yihui/hugo-ivy.git`
@@ -79,8 +79,8 @@ draft: true
 
 # 发布并托管到Github
 
-## 创建GitHub Pages site
-1. 在Github中添加一个空白repository，注意不要添加如README，.gitignore等文档。得到Github中该repository的网址：
+1. 创建GitHub Pages site
+在Github中添加一个空白repository，注意不要添加如README，.gitignore等文档。得到Github中该repository的网址：
 
 `illiterate.github.io`
 
@@ -114,7 +114,7 @@ git push -u origin master
 访问 http://illiterater.github.io 看到用Hugo生成的网页了
 
 # 配置个人域名
-## 购买域名，设置域名解析
+购买域名，设置域名解析
 1. 推荐[namesilo.com](https://www.namesilo.com/)
 2. 设置域名解析，两种方法
 在[Manage DNS](https://www.namesilo.com/account_domain_manage_dns.php)中
@@ -185,11 +185,12 @@ Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示
 - [1] [利用Hugo和Github Pages免费创建并永久托管网站](https://imroc.io/posts/hugo/building-website-for-free-using-hugo-and-github-pages/)
 - [2] [Hugo 博客中文指南（基础教程）](https://www.cnblogs.com/chenxuhua/p/hugo-blog-chinese-user-guide.html)
 - [3] [Hugo入门详细教程](https://www.youendless.com/post/hugo_base/)
-- [4] [yihui.org](https://yihui.org/cn/about/)
-- [5] [Pro Git book](https://git-scm.com/book/zh/v2)
-- [6] [Git如何把本地代码推送到远程仓库](https://blog.csdn.net/JackLiu16/article/details/79751900?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
-- [7] [有哪些国外便宜域名注册商是值得推荐的？](https://zhuanlan.zhihu.com/p/63866401)
-- [8] [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed/)
+- [4] [使用hugo搭建个人blog](https://blog.voidmain.guru/posts/2019-07-01-blog-with-hugo/)
+- [5] [yihui.org](https://yihui.org/cn/about/)
+- [6] [Pro Git book](https://git-scm.com/book/zh/v2)
+- [7] [Git如何把本地代码推送到远程仓库](https://blog.csdn.net/JackLiu16/article/details/79751900?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
+- [8] [有哪些国外便宜域名注册商是值得推荐的？](https://zhuanlan.zhihu.com/p/63866401)
+- [9] [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed/)
 
 
 
