@@ -18,5 +18,14 @@
 git init git submodule add https://github.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://blog.illiterate.info/about/</link>
+      <pubDate>Wed, 13 Jan 2021 15:37:44 +0800</pubDate>
+      
+      <guid>https://blog.illiterate.info/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
