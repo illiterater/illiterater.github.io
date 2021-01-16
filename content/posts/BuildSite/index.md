@@ -5,7 +5,7 @@ date: 2021-01-14T14:38:08+08:00
 # hugo生成静态网页
 
 ## 安装hugo
-1. 访问Github下载Hugo的应用程序，下载地址 https://github.com/gohugoio/hugo/releases 
+1. 访问Github下载Hugo的应用程序，下载地址 https://github.com/gohugoio/hugo/releases
 2. windows请选择下载hugo_0.xx.0_Windows-64bit.zip
 3. 下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中
 4. 打开CMD，执行 hugo version 命令验证是否安装成功
@@ -38,7 +38,7 @@ Hugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T
 1. 下载一个主题并加载到config.toml文件中 （CMD中）
 
  `git clone https://github.com/yihui/hugo-ivy.git`
- 
+
 2. 通过在 config.toml 配置使用：theme = "hugo-ivy"
 
 另一种方法（未尝试）：
@@ -69,7 +69,7 @@ draft: true
 
 >hugo server
 
-在浏览器中输入网址http://localhost:1313/就可以在浏览器中查看网页效果了
+在浏览器中输入网址`http://localhost:1313/`就可以在浏览器中查看网页效果了
 
 ## 发布
 没有问题了便可以使用如下命令：
@@ -141,8 +141,8 @@ git push -u origin master
 
 5. 更新文档并同步到网站，md文档更新后运行
 
-``` 
-# Build the project. 
+```
+# Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Add changes to git.
@@ -191,6 +191,5 @@ Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示
 - [7] [Git如何把本地代码推送到远程仓库](https://blog.csdn.net/JackLiu16/article/details/79751900?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
 - [8] [有哪些国外便宜域名注册商是值得推荐的？](https://zhuanlan.zhihu.com/p/63866401)
 - [9] [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed/)
-
-
-
+- [10] [开源在线 Markdown 编辑器](https://pandao.github.io/editor.md/index.html)
+- [11] [GitHub Hello World](https://guides.github.com/activities/hello-world/)
