@@ -1,5 +1,34 @@
 baseURL = "https://blog.illiterate.info/"
 languageCode = "en-us"
-title = "Yucheng's blog"
+title = "Illiterate's blog"
 theme = "hugo-ivy"
 publishDir = "docs"
+
+[[menu.main]]
+   identifier = "blog"
+   name       = "Blogs"
+   url        = "/posts"
+ [[menu.main]]
+   name       = "Categories"
+   identifier = "categories"
+   url        = "/categories/"
+ [[menu.main]]
+   identifier = "tags"
+   name       = "Tags"
+   url        = "/tags/"
+ [[menu.main]]
+   identifier = "about"
+   name       = "About"
+   url        = "about/"
+
+[[params]] 
+  description= "Personal website of illiterate"
+  footer = "&copy; [iliterate](/) 2021 - 2025"
+  avatar = "img/BWcats.PNG" 
+
+[[params.social]] 
+         name = "email"
+         url  = "mailto:shengyc@gmail.com"
+[[params.social]]
+         name = "github"
+         url  = "https://github.com/illiterater"
