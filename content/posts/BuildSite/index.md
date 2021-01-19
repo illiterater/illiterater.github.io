@@ -194,3 +194,4 @@ Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示
 - [10] [开源在线 Markdown 编辑器](https://pandao.github.io/editor.md/index.html)
 - [11] [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [12] [Hugo 从入门到会用](https://olowolo.com/post/hugo-quick-start/)
+- [13] [HUGO](https://kuang.netlify.app/blog/hugo.html)

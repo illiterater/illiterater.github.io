@@ -31,7 +31,7 @@ publishDir = "docs"
 
 [params] 
   description= "Personal website of illiterate"
-  footer = "&copy; [iliterate](/) 2021 - 2025"
+  footer = "&copy; [illiterate](/) 2021 - 2025"
 [[params.logo]]
   img = "/img/BWcats.PNG" 
   url = "/"
