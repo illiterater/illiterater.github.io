@@ -5,28 +5,40 @@ theme = "hugo-ivy"
 publishDir = "docs"
 
 [[menu.main]]
+   name       = "首页"
+   url        = "/"
+   weight     = 1
+[[menu.main]]
    identifier = "blog"
-   name       = "Blogs"
+   name       = "日志"
    url        = "/posts"
+   weight     = 2
  [[menu.main]]
-   name       = "Categories"
+   name       = "分类"
    identifier = "categories"
    url        = "/categories/"
+   weight     = 3
  [[menu.main]]
    identifier = "tags"
-   name       = "Tags"
+   name       = "标签"
    url        = "/tags/"
+   weight     = 4
  [[menu.main]]
    identifier = "about"
-   name       = "About"
+   name       = "关于"
    url        = "about/"
+   weight     = 5
 
-[[params]] 
+[params] 
   description= "Personal website of illiterate"
   footer = "&copy; [iliterate](/) 2021 - 2025"
-  avatar = "img/BWcats.PNG" 
+[[params.logo]]
+  img = "/img/BWcats.PNG" 
+  url = "/"
+  alt= "Illiterate"
+  tag= ""
 
-[[params.social]] 
+[[params.social]]
          name = "email"
          url  = "mailto:shengyc@gmail.com"
 [[params.social]]
