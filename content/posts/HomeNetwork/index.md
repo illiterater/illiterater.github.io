@@ -52,9 +52,9 @@ categories: [ "技术" ]
 1. 两个路由器之间的LAN<->LAN连接中间有一个交换机，是否会出现问题？
 2. 外部访问的流量全部通过R2S软路由，是否稳定？是否可以作为旁路由? 
 
-[友善R2S 作旁路由-操作步骤](https://www.yuque.com/5zhimao/fwgq3b/gs26w1)
-[旁路由设置](https://www.lingbaoboy.com/2020/11/r2s.html)
-[Nanopi R2S软路由配置——旁路由](https://www.haoyufang.site:8892/%E7%BD%91%E7%BB%9C/Nanopi%20R2S%E8%BD%AF%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE%E2%80%94%E2%80%94%E6%97%81%E8%B7%AF%E7%94%B1.html)
-[NAS、软路由、高清盒子、Web一个都不能少！](https://zhuanlan.zhihu.com/p/89373710)
-[旁路由设置的三种方式](https://oeone.cn/archives/486.html)
+- [友善R2S 作旁路由-操作步骤](https://www.yuque.com/5zhimao/fwgq3b/gs26w1)
+- [旁路由设置](https://www.lingbaoboy.com/2020/11/r2s.html)
+- [Nanopi R2S软路由配置——旁路由](https://www.haoyufang.site:8892/%E7%BD%91%E7%BB%9C/Nanopi%20R2S%E8%BD%AF%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE%E2%80%94%E2%80%94%E6%97%81%E8%B7%AF%E7%94%B1.html)
+- [NAS、软路由、高清盒子、Web一个都不能少！](https://zhuanlan.zhihu.com/p/89373710)
+- [旁路由设置的三种方式](https://oeone.cn/archives/486.html)
 
