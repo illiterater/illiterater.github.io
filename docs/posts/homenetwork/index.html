@@ -124,6 +124,10 @@
 <li>两个路由器之间的LAN&lt;-&gt;LAN连接中间有一个交换机，是否会出现问题？</li>
 <li>外部访问的流量全部通过R2S软路由，是否稳定？是否可以作为旁路由?</li>
 </ol>
+<h1 id="花落">花落</h1>
+<p>理想的网络状态是大部分上网的流量不经过软路由，需要KX上网的设备才经过软路由，减少软路由的复核。</p>
+<p>于是，旁路由的方案应该是最佳方案。只需要修改KX上网的设备的网关（和DNS?）即可！</p>
+<p><img src="Bypass.PNG" alt=""></p>
 <ul>
 <li><a href="https://www.yuque.com/5zhimao/fwgq3b/gs26w1">友善R2S 作旁路由-操作步骤</a></li>
 <li><a href="https://www.lingbaoboy.com/2020/11/r2s.html">旁路由设置</a></li>
