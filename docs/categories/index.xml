@@ -6,22 +6,22 @@
     <description>Recent content in Categories on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2021 15:52:03 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 15:06:25 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术</title>
+      <link>https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Mon, 25 Jan 2021 15:06:25 +0800</pubDate>
+      
+      <guid>https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>非技术</title>
       <link>https://blog.illiterate.info/categories/%E9%9D%9E%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Tue, 19 Jan 2021 15:52:03 +0800</pubDate>
       
       <guid>https://blog.illiterate.info/categories/%E9%9D%9E%E6%8A%80%E6%9C%AF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术</title>
-      <link>https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Thu, 14 Jan 2021 14:38:08 +0800</pubDate>
-      
-      <guid>https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     

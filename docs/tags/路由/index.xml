@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Illiterate&#39;s blog</title>
-    <link>https://blog.illiterate.info/posts/</link>
-    <description>Recent content in Posts on Illiterate&#39;s blog</description>
+    <title>路由 on Illiterate&#39;s blog</title>
+    <link>https://blog.illiterate.info/tags/%E8%B7%AF%E7%94%B1/</link>
+    <description>Recent content in 路由 on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 15:06:25 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 15:06:25 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/tags/%E8%B7%AF%E7%94%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>上海电信光猫下多个无线路由组网</title>
       <link>https://blog.illiterate.info/posts/homenetwork/</link>
@@ -23,29 +23,6 @@
  将光猫信号连接到卧室2的主路由(AX3)后，再连接回卧室2的交换机。 AX3的性能强，将作为主路由。客厅的路由作为辅助路由。具体参考 多台无线路由能不能同名无缝切换？。重点如下：  1. 找性能最强的做主路由, 因为这一台路由会负责所有的DHCP. 预留几个IP给辅助路由器, 不要全部DHCP出去. 例如DHCP范围设成192.168.1.10~192.168.1.225. 预留192.168.1.2~9 2. 辅助的路由和主路由链好, 链接是LAN&amp;lt;-&amp;gt;LAN (不是LAN&amp;lt;-&amp;gt;WAN). 3. 辅助路由要关闭WAN, 关闭DHCP. 路由IP手动设成 192.168.1.X. 就是第一步预留段. 4. 辅助的路由SSID和无线密码, 密码制式全部都要一模一样. 不要一个WAP2 一个WPA的. 这样就应该可以了. 更详细的设置见路由器有线桥接的两种方式异同
 修改后的网络图
 担心：两个路由器之间的LAN&amp;lt;-&amp;gt;LAN连接中间有一个交换机，是否会出现问题？</description>
-    </item>
-    
-    <item>
-      <title>蝴蝶效应 —— 建站由来</title>
-      <link>https://blog.illiterate.info/posts/butterflyeffect/</link>
-      <pubDate>Tue, 19 Jan 2021 15:52:03 +0800</pubDate>
-      
-      <guid>https://blog.illiterate.info/posts/butterflyeffect/</guid>
-      <description>“I web, therefore I am a spiderman.”
- 很久以来就有个模糊的想法，建一个自己的网站，作为一个随时能打开的网上仓库，记录一些自己的想法、梳理后的技术流程等等。遗憾的是，这一想法一直未能付诸实现。主要是因为自己太懒，觉得建一个网站是一件很麻烦的事，有很多东西要学。加之有很多笔记类的工具已经可以基本实现上面的需求，于是就没什么动力自己折腾了。
-一周前，这一耽搁许久的想法终于被一封邮件召唤回来了。就是下面这段：
- We&amp;rsquo;ve noticed that you have not used your current account ending XXXX to make any payment (in or out) in the last 6 months. We may freeze your current account if no payment is made (in or out) for a total period of 12 months. This will prevent any further payments being made from or to this account.</description>
-    </item>
-    
-    <item>
-      <title>用hugo结合github建立个人静态网站</title>
-      <link>https://blog.illiterate.info/posts/buildsite/</link>
-      <pubDate>Thu, 14 Jan 2021 14:38:08 +0800</pubDate>
-      
-      <guid>https://blog.illiterate.info/posts/buildsite/</guid>
-      <description>hugo生成静态网页 安装hugo  访问Github下载Hugo的应用程序，下载地址 https://github.com/gohugoio/hugo/releases windows请选择下载hugo_0.xx.0_Windows-64bit.zip 下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中 打开CMD，执行 hugo version 命令验证是否安装成功  C:\Users\XXXXXX&amp;gt;hugo versionHugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site E:/website/second-blog 命令执行后查看E:/website/second-blog目录，查看文件目录结构。  │ config.toml│├─archetypes│ default.md│├─content├─data├─layouts├─static└─themes安装git  从git官网 https://git-scm.com/downloads/ 下载 安装git  安装hugo主题  下载一个主题并加载到config.toml文件中 （CMD中）  git clone https://github.com/yihui/hugo-ivy.git
-通过在 config.toml 配置使用：theme = &amp;ldquo;hugo-ivy&amp;rdquo;  另一种方法（未尝试）： 下载一个主题并加载到config.toml文件中：
-git initgit submodule add https://github.</description>
     </item>
     
   </channel>
