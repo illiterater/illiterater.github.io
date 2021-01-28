@@ -113,6 +113,10 @@ pause
 
 - 其他无线设备的非KX上网通过AX3建立一个 Guest网络来访问
 
+5. 效果检验：内网传输速度最快差不多有 100MB/s。这几天的劳动没白费！
+
+![](Speed.PNG)
+
 ## 参考文档
 - [友善R2S 作旁路由-操作步骤](https://www.yuque.com/5zhimao/fwgq3b/gs26w1)
 - [旁路由设置](https://www.lingbaoboy.com/2020/11/r2s.html)
