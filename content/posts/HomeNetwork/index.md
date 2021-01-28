@@ -2,7 +2,7 @@
 title: "上海电信光猫下多个无线路由组网"
 date: 2021-01-25T15:06:25+08:00
 draft: false
-tags: [ "科学", "光猫", "路由", "NAS"]
+tags: [ "科学", "光猫", "路由", "NAS", "科学"]
 categories: [ "技术" ]
 
 ---
@@ -49,17 +49,71 @@ categories: [ "技术" ]
 ![](Post.PNG)
 
 担心：
-1. 两个路由器之间的LAN<->LAN连接中间有一个交换机，是否会出现问题？
-2. 外部访问的流量全部通过R2S软路由，是否稳定？是否可以作为旁路由? 
+1. 两个路由器之间的LAN<->LAN连接中间有一个交换机，是否会出现问题？**没问题**
+2. 外部访问的流量全部通过R2S软路由，是否稳定？是否可以作为旁路由? **旁路由更佳**
 
-# 花落
+理想的网络状态是大部分上网的流量不经过软路由，需要KX上网的设备才经过软路由，减少软路由的负荷。
 
-理想的网络状态是大部分上网的流量不经过软路由，需要KX上网的设备才经过软路由，减少软路由的复核。
-
-于是，旁路由的方案应该是最佳方案。只需要修改KX上网的设备的网关（和DNS?）即可！
+于是，旁路由的方案应该是最佳方案。只需要修改KX上网的设备的网关（和DNS? **下面设置为主路由的IP**）即可！
 
 ![](Bypass.PNG)
 
+# 花落
+
+花了2天的时间分别尝试了上面两种网络部署，总结如下：
+1. 极路由作为客厅辅助路由并不理想，连接到上面的设备IP地址仍然是 192.168.199.x，而且极路由上的网口无法和设备进行有线连接。目前是用另一台交换机连接极路由和网络存储设备。计划再入一个华为AX3用Mesh组网，取代这里的交换机和极路由，彻底解决。
+2. R2S旁路由设置：提醒：重启后 WAN和LAN口只有一个连在主路由上，可能需要分别插上网线后ping一下新的网关地址（此处：192.168.3.3）。
+
+![](1n.PNG)
+
+![](2n.PNG)
+
+![](3n.PNG)
+
+3. 旁路由的作用：在主路由的网段内，只要将网关改为旁路由的IP即可。DHCP仍由主路由负责。这样，关闭旁路由并不影响连在主路由的设备上网（DHCP自动分配网址）
+
+> 旁路由严格来说应该被称作旁路网关，重要的其实就是这网关2字
+
+4. 快速切换KX上网方式：
+- 台式机和笔记本使用批处理（.bat）文件来进行快速切换
+
+```
+@echo off
+set nic="Wi-Fi"
+set /p choice="输入0切换为自动获取，输入1切换到科学上网，输入2切换到静态IP上网(国内)"
+if "%choice%"=="0" goto C0
+if "%choice%"=="1" goto C1 
+if "%choice%"=="2" goto C2 
+goto END
+:C0
+echo 开始设置自动获取IP
+netsh interface ip set address "%nic%" dhcp
+goto END
+:C1
+echo 切换到科学上网...
+netsh interface ip set address "%nic%" static 192.168.3.50 255.255.255.0 192.168.3.3
+netsh interface ip add dns name="%nic%" addr=192.168.3.1
+echo 已经切换到科学上网
+goto END
+:C2
+echo 切换到静态IP上网(国内)...
+netsh interface ip set address "%nic%" static 192.168.3.50 255.255.255.0 192.168.3.1
+netsh interface ip add dns name="%nic%" addr=192.168.3.1
+echo 已经切换到静态IP上网(国内)
+goto END
+:END
+pause
+```
+
+注意此处的 `set nic="Wi-Fi"`，应该和红圈处一致。
+
+![](NetName.PNG)
+
+可以创建一个快捷方式到桌面上，并在快捷方式-属性-高级中勾选“作为管理员运行”。
+
+- 其他无线设备的非KX上网通过AX3建立一个 Guest网络来访问
+
+## 参考文档
 - [友善R2S 作旁路由-操作步骤](https://www.yuque.com/5zhimao/fwgq3b/gs26w1)
 - [旁路由设置](https://www.lingbaoboy.com/2020/11/r2s.html)
 - [Nanopi R2S软路由配置——旁路由](https://www.haoyufang.site:8892/%E7%BD%91%E7%BB%9C/Nanopi%20R2S%E8%BD%AF%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE%E2%80%94%E2%80%94%E6%97%81%E8%B7%AF%E7%94%B1.html)
