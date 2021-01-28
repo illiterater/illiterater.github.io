@@ -111,6 +111,7 @@ goto END
 pause
 ```
 
+p.s. 10.1.100.8 可能是更好的DNS服务器。
 注意此处的 `set nic="Wi-Fi"`，应该和红圈处一致。
 
 ![](NetName.PNG)
