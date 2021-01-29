@@ -198,3 +198,8 @@ Github Pages不支持在自定义域名中使用HTTPs协议，浏览器会提示
 - [11] [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [12] [Hugo 从入门到会用](https://olowolo.com/post/hugo-quick-start/)
 - [13] [HUGO](https://kuang.netlify.app/blog/hugo.html)
+
+Git和Github参考
+- [14] [用git提交代码到github的完整步骤](https://www.jianshu.com/p/651cecec7c8f)
+- [15] [在不同电脑上git push同个github账户下的repositories](https://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2013/02/06/use-one-github-account-on-two-computers.html)
+- [16] [一个github账户多台电脑代码提交](https://www.cnblogs.com/Nick-M/p/5559042.html)
