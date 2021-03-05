@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 15:50:26 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 15:57:57 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 2 Paradigms in Cancer Drug Development</title>
+      <link>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</link>
+      <pubDate>Fri, 05 Mar 2021 15:57:57 +0800</pubDate>
+      
+      <guid>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</guid>
+      <description>Milestones of the different paradigm shifts in the timeline of oncology EDD Main differences between four established paradigms in oncology early drug development Cytotoxic Chemotherapeutics (CHTs)  Both efficacy and toxicity show sigmoid dose-response relationship - Underlying assumption: the mechanism resulting in toxicity is similar to the mechanism leading to efficacy Tumor growth follow Gompertzian function  less time between treatments likely more efficient dose regime, dose, timing, duration, and schedule, matters   Find therapeutic window  Conventionally, 1/10 of 10% lethal dose (LD10) in mice or 1/6 of the highest NOAEL in non-rodent Accelerated titration designs advocate for single-patient cohorts at early dose levels   ADC (antibody- drug conjugate) considerations  Rational selection of target antigens, expressed in normal cells at very low levels Careful modification of the mAb (e.</description>
+    </item>
+    
     <item>
       <title>Chapter 1 Drug Development Perspective</title>
       <link>https://blog.illiterate.info/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</link>
