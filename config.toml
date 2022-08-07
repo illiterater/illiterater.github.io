@@ -1,4 +1,4 @@
-baseURL = "https://blog.illiterate.info/"
+baseURL = "https://blog.mid3.org/"
 languageCode = "en-us"
 title = "Illiterate's blog"
 theme = "hugo-ivy"

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Illiterate&#39;s blog</title>
-    <link>https://blog.illiterate.info/tags/github/</link>
+    <link>https://blog.mid3.org/tags/github/</link>
     <description>Recent content in github on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 14:38:08 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 14:38:08 +0800</lastBuildDate><atom:link href="https://blog.mid3.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用hugo结合github建立个人静态网站</title>
-      <link>https://blog.illiterate.info/posts/buildsite/</link>
+      <link>https://blog.mid3.org/posts/buildsite/</link>
       <pubDate>Thu, 14 Jan 2021 14:38:08 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/buildsite/</guid>
+      <guid>https://blog.mid3.org/posts/buildsite/</guid>
       <description>hugo生成静态网页 安装hugo  访问Github下载Hugo的应用程序，下载地址 https://github.com/gohugoio/hugo/releases windows请选择下载hugo_0.xx.0_Windows-64bit.zip 下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中 打开CMD，执行 hugo version 命令验证是否安装成功  C:\Users\XXXXXX&amp;gt;hugo versionHugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site E:/website/second-blog 命令执行后查看E:/website/second-blog目录，查看文件目录结构。  │ config.toml│├─archetypes│ default.md│├─content├─data├─layouts├─static└─themes安装git  从git官网 https://git-scm.com/downloads/ 下载 安装git  安装hugo主题  下载一个主题并加载到config.toml文件中 （CMD中）  git clone https://github.com/yihui/hugo-ivy.git
 通过在 config.toml 配置使用：theme = &amp;ldquo;hugo-ivy&amp;rdquo;  另一种方法（未尝试）： 下载一个主题并加载到config.toml文件中：
 git initgit submodule add https://github.</description>

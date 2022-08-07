@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>专业 on Illiterate&#39;s blog</title>
-    <link>https://blog.illiterate.info/tags/%E4%B8%93%E4%B8%9A/</link>
+    <link>https://blog.mid3.org/tags/%E4%B8%93%E4%B8%9A/</link>
     <description>Recent content in 专业 on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 10:50:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/tags/%E4%B8%93%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 10:50:18 +0800</lastBuildDate><atom:link href="https://blog.mid3.org/tags/%E4%B8%93%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 9 Development of PD Biomarker for PhI Trials</title>
-      <link>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</link>
+      <link>https://blog.mid3.org/posts/ch9_development-of-pd-biomarker-for-phi-trials/</link>
       <pubDate>Tue, 09 Mar 2021 10:50:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch9_development-of-pd-biomarker-for-phi-trials/</guid>
       <description>PD biomarkers are molecular indicators of the drug’s effect on the target in an organism
   Based on the understanding of molecular biology of cancer and the role of the tumor environment
   Can be used to examine the link between a drug treatment, the target effects, and a biological tumor response
@@ -23,20 +23,20 @@
     
     <item>
       <title>Chapter 7 Attribution and Management of Toxicities in PhI Trials</title>
-      <link>https://blog.illiterate.info/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</link>
+      <link>https://blog.mid3.org/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</link>
       <pubDate>Tue, 09 Mar 2021 10:25:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</guid>
       <description>In clinical research, attribution is the determination of whether a clinical event is related to the investigational treatment under study, or non-treatment causes, such as the underlying disease, or comorbidities. it is also referred to as “relatedness to study treatment” in published reports or as “causality” in certain regulatory contexts
  In early-stage development, the use of attribution data is for safety assessment to ensure patient protection In later stages of development, the safety profile of an investigational drug is usually completed with key toxicities of special interest and less attention is paid to mild and expected adverse events  There are different causality reporting requirements between the FDA and EMA</description>
     </item>
     
     <item>
       <title>Chapter 8 Incorporating PK Into Oncology Ph1 Trials</title>
-      <link>https://blog.illiterate.info/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</link>
+      <link>https://blog.mid3.org/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</link>
       <pubDate>Mon, 08 Mar 2021 16:05:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</guid>
       <description>Basic premise: free drug concentration at the target tissue of action will determine the magnitude and the duration of drug response
 phase 1 enzymes metabolism: through the processes of oxidation, reduction or carboxylation
 phase 2 enzymes conjugate make the phase 1 metabolites more water soluble
@@ -46,10 +46,10 @@ key objectives for collecting PK from FiH trials
     
     <item>
       <title>Chapter 3 Preclinical Studies to Enable First in Human Trials</title>
-      <link>https://blog.illiterate.info/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</link>
+      <link>https://blog.mid3.org/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</link>
       <pubDate>Mon, 08 Mar 2021 14:58:42 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</guid>
       <description>Preclinical genomic data
 - https://depmap.org/portal/
 - https://www.sanger.ac.uk/
@@ -67,19 +67,19 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>Chapter 2 Paradigms in Cancer Drug Development</title>
-      <link>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</link>
+      <link>https://blog.mid3.org/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</link>
       <pubDate>Fri, 05 Mar 2021 15:57:57 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</guid>
+      <guid>https://blog.mid3.org/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</guid>
       <description>Milestones of the different paradigm shifts in the timeline of oncology EDD Main differences between four established paradigms in oncology early drug development Cytotoxic Chemotherapeutics (CHTs)  Both efficacy and toxicity show sigmoid dose-response relationship - Underlying assumption: the mechanism resulting in toxicity is similar to the mechanism leading to efficacy Tumor growth follow Gompertzian function  less time between treatments likely more efficient dose regime, dose, timing, duration, and schedule, matters   Find therapeutic window  Conventionally, 1/10 of 10% lethal dose (LD10) in mice or 1/6 of the highest NOAEL in non-rodent Accelerated titration designs advocate for single-patient cohorts at early dose levels   ADC (antibody- drug conjugate) considerations  Rational selection of target antigens, expressed in normal cells at very low levels Careful modification of the mAb (e.</description>
     </item>
     
     <item>
       <title>Chapter 1 Drug Development Perspective</title>
-      <link>https://blog.illiterate.info/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</link>
+      <link>https://blog.mid3.org/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</link>
       <pubDate>Fri, 05 Mar 2021 15:50:26 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</guid>
+      <guid>https://blog.mid3.org/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</guid>
       <description>Critical steps enabling early development Reducing attrition biomedical approaches
   leverage pre-existing information including bioinformatics approaches
   integrating non-clinical information to predict clinical properties of NME

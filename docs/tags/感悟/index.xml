@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>感悟 on Illiterate&#39;s blog</title>
-    <link>https://blog.illiterate.info/tags/%E6%84%9F%E6%82%9F/</link>
+    <link>https://blog.mid3.org/tags/%E6%84%9F%E6%82%9F/</link>
     <description>Recent content in 感悟 on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2021 15:52:03 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/tags/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2021 15:52:03 +0800</lastBuildDate><atom:link href="https://blog.mid3.org/tags/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>蝴蝶效应 —— 建站由来</title>
-      <link>https://blog.illiterate.info/posts/butterflyeffect/</link>
+      <link>https://blog.mid3.org/posts/butterflyeffect/</link>
       <pubDate>Tue, 19 Jan 2021 15:52:03 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/butterflyeffect/</guid>
+      <guid>https://blog.mid3.org/posts/butterflyeffect/</guid>
       <description>“I web, therefore I am a spiderman.”
  很久以来就有个模糊的想法，建一个自己的网站，作为一个随时能打开的网上仓库，记录一些自己的想法、梳理后的技术流程等等。遗憾的是，这一想法一直未能付诸实现。主要是因为自己太懒，觉得建一个网站是一件很麻烦的事，有很多东西要学。加之有很多笔记类的工具已经可以基本实现上面的需求，于是就没什么动力自己折腾了。
 一周前，这一耽搁许久的想法终于被一封邮件召唤回来了。就是下面这段：

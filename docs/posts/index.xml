@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Illiterate&#39;s blog</title>
-    <link>https://blog.illiterate.info/posts/</link>
+    <link>https://blog.mid3.org/posts/</link>
     <description>Recent content in Posts on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 10:50:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 10:50:18 +0800</lastBuildDate><atom:link href="https://blog.mid3.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 9 Development of PD Biomarker for PhI Trials</title>
-      <link>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</link>
+      <link>https://blog.mid3.org/posts/ch9_development-of-pd-biomarker-for-phi-trials/</link>
       <pubDate>Tue, 09 Mar 2021 10:50:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch9_development-of-pd-biomarker-for-phi-trials/</guid>
       <description>PD biomarkers are molecular indicators of the drug’s effect on the target in an organism
   Based on the understanding of molecular biology of cancer and the role of the tumor environment
   Can be used to examine the link between a drug treatment, the target effects, and a biological tumor response
@@ -23,20 +23,20 @@
     
     <item>
       <title>Chapter 7 Attribution and Management of Toxicities in PhI Trials</title>
-      <link>https://blog.illiterate.info/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</link>
+      <link>https://blog.mid3.org/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</link>
       <pubDate>Tue, 09 Mar 2021 10:25:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</guid>
       <description>In clinical research, attribution is the determination of whether a clinical event is related to the investigational treatment under study, or non-treatment causes, such as the underlying disease, or comorbidities. it is also referred to as “relatedness to study treatment” in published reports or as “causality” in certain regulatory contexts
  In early-stage development, the use of attribution data is for safety assessment to ensure patient protection In later stages of development, the safety profile of an investigational drug is usually completed with key toxicities of special interest and less attention is paid to mild and expected adverse events  There are different causality reporting requirements between the FDA and EMA</description>
     </item>
     
     <item>
       <title>Chapter 8 Incorporating PK Into Oncology Ph1 Trials</title>
-      <link>https://blog.illiterate.info/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</link>
+      <link>https://blog.mid3.org/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</link>
       <pubDate>Mon, 08 Mar 2021 16:05:18 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</guid>
       <description>Basic premise: free drug concentration at the target tissue of action will determine the magnitude and the duration of drug response
 phase 1 enzymes metabolism: through the processes of oxidation, reduction or carboxylation
 phase 2 enzymes conjugate make the phase 1 metabolites more water soluble
@@ -46,10 +46,10 @@ key objectives for collecting PK from FiH trials
     
     <item>
       <title>Chapter 3 Preclinical Studies to Enable First in Human Trials</title>
-      <link>https://blog.illiterate.info/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</link>
+      <link>https://blog.mid3.org/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</link>
       <pubDate>Mon, 08 Mar 2021 14:58:42 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</guid>
+      <guid>https://blog.mid3.org/posts/ch3_preclinical-studies-to-enable-first-in-human-trials/</guid>
       <description>Preclinical genomic data
 - https://depmap.org/portal/
 - https://www.sanger.ac.uk/
@@ -67,19 +67,19 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>Chapter 2 Paradigms in Cancer Drug Development</title>
-      <link>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</link>
+      <link>https://blog.mid3.org/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</link>
       <pubDate>Fri, 05 Mar 2021 15:57:57 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</guid>
+      <guid>https://blog.mid3.org/posts/ch2_paradigms-in-cancer-drug-development-a-universe-with-many-galaxies/</guid>
       <description>Milestones of the different paradigm shifts in the timeline of oncology EDD Main differences between four established paradigms in oncology early drug development Cytotoxic Chemotherapeutics (CHTs)  Both efficacy and toxicity show sigmoid dose-response relationship - Underlying assumption: the mechanism resulting in toxicity is similar to the mechanism leading to efficacy Tumor growth follow Gompertzian function  less time between treatments likely more efficient dose regime, dose, timing, duration, and schedule, matters   Find therapeutic window  Conventionally, 1/10 of 10% lethal dose (LD10) in mice or 1/6 of the highest NOAEL in non-rodent Accelerated titration designs advocate for single-patient cohorts at early dose levels   ADC (antibody- drug conjugate) considerations  Rational selection of target antigens, expressed in normal cells at very low levels Careful modification of the mAb (e.</description>
     </item>
     
     <item>
       <title>Chapter 1 Drug Development Perspective</title>
-      <link>https://blog.illiterate.info/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</link>
+      <link>https://blog.mid3.org/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</link>
       <pubDate>Fri, 05 Mar 2021 15:50:26 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</guid>
+      <guid>https://blog.mid3.org/posts/ch1_the-development-of-a-drug-a-pharmaceutical-drug-development-perspective/</guid>
       <description>Critical steps enabling early development Reducing attrition biomedical approaches
   leverage pre-existing information including bioinformatics approaches
   integrating non-clinical information to predict clinical properties of NME
@@ -91,10 +91,10 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>一朵小红花</title>
-      <link>https://blog.illiterate.info/posts/redflower/</link>
+      <link>https://blog.mid3.org/posts/redflower/</link>
       <pubDate>Fri, 29 Jan 2021 10:23:06 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/redflower/</guid>
+      <guid>https://blog.mid3.org/posts/redflower/</guid>
       <description>这周趁着年假看了场电影，《送你一朵小红花》。这几天和家人、同事都聊到了这部电影，一再被问到我看完后的感想。其实想到的挺多，头绪太多还是写下来才能梳理清楚。
 珍惜当下！看过一个很形象的比喻：人生就像做火车旅行，父母陪你前半段，后面很大的可能会有爱人、孩子陪你很长一段。当然，在其中上下车的人也会有很多，有人能陪你做很多站，有人和你说声“Hi”就下车了。但本质上，你的旅程是没有人一直能陪伴你的。特别是旅程的终点，没有意外的话，所有人都是独自走向死亡的。正因为这样，当下能陪你的人就更值得珍惜，眼前的美好也更不应被忽视！
  春有百花秋有月，
@@ -118,10 +118,10 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>上海电信光猫下多个无线路由组网</title>
-      <link>https://blog.illiterate.info/posts/homenetwork/</link>
+      <link>https://blog.mid3.org/posts/homenetwork/</link>
       <pubDate>Mon, 25 Jan 2021 15:06:25 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/homenetwork/</guid>
+      <guid>https://blog.mid3.org/posts/homenetwork/</guid>
       <description>缘起 数月前入手(keng)了一台威联通的NAS，准备作为资料统一备份用。没时间也不想折腾，直接连上家里的网络就开始了备份。郁闷的是，网络的传输速度最快才能达到10M/s。就这样，忍受了很长一段时间，也备份了大概好几个TB的文件。
 这次，由于疫情的原因，原定去三亚的度假计划就这么被无情的取消了。正好腾出时间优(zhe)化(teng)一下家里的网络了。
 仔细梳理了一下，现在家里有3个网段，主要设备分布在家里的三个房间，见下图：
@@ -140,10 +140,10 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>蝴蝶效应 —— 建站由来</title>
-      <link>https://blog.illiterate.info/posts/butterflyeffect/</link>
+      <link>https://blog.mid3.org/posts/butterflyeffect/</link>
       <pubDate>Tue, 19 Jan 2021 15:52:03 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/butterflyeffect/</guid>
+      <guid>https://blog.mid3.org/posts/butterflyeffect/</guid>
       <description>“I web, therefore I am a spiderman.”
  很久以来就有个模糊的想法，建一个自己的网站，作为一个随时能打开的网上仓库，记录一些自己的想法、梳理后的技术流程等等。遗憾的是，这一想法一直未能付诸实现。主要是因为自己太懒，觉得建一个网站是一件很麻烦的事，有很多东西要学。加之有很多笔记类的工具已经可以基本实现上面的需求，于是就没什么动力自己折腾了。
 一周前，这一耽搁许久的想法终于被一封邮件召唤回来了。就是下面这段：
@@ -152,10 +152,10 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
     
     <item>
       <title>用hugo结合github建立个人静态网站</title>
-      <link>https://blog.illiterate.info/posts/buildsite/</link>
+      <link>https://blog.mid3.org/posts/buildsite/</link>
       <pubDate>Thu, 14 Jan 2021 14:38:08 +0800</pubDate>
       
-      <guid>https://blog.illiterate.info/posts/buildsite/</guid>
+      <guid>https://blog.mid3.org/posts/buildsite/</guid>
       <description>hugo生成静态网页 安装hugo  访问Github下载Hugo的应用程序，下载地址 https://github.com/gohugoio/hugo/releases windows请选择下载hugo_0.xx.0_Windows-64bit.zip 下载完成止之后解压文件至C:\Windows\system32，若其他路径需添加到系统环境变量Path中 打开CMD，执行 hugo version 命令验证是否安装成功  C:\Users\XXXXXX&amp;gt;hugo versionHugo Static Site Generator v0.80.0-792EF0F4 windows/amd64 BuildDate: 2020-12-31T13:37:57Z本地hugo目录  新建/指定本地目录，通过hugo把站点生成到该目录下 （CMD中） $ hugo new site E:/website/second-blog 命令执行后查看E:/website/second-blog目录，查看文件目录结构。  │ config.toml│├─archetypes│ default.md│├─content├─data├─layouts├─static└─themes安装git  从git官网 https://git-scm.com/downloads/ 下载 安装git  安装hugo主题  下载一个主题并加载到config.toml文件中 （CMD中）  git clone https://github.com/yihui/hugo-ivy.git
 通过在 config.toml 配置使用：theme = &amp;ldquo;hugo-ivy&amp;rdquo;  另一种方法（未尝试）： 下载一个主题并加载到config.toml文件中：
 git initgit submodule add https://github.</description>
