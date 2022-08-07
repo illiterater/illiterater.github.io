@@ -6,7 +6,21 @@
     <description>Recent content in 技术 on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 10:25:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 10:50:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 9 Development of PD Biomarker for PhI Trials</title>
+      <link>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</link>
+      <pubDate>Tue, 09 Mar 2021 10:50:18 +0800</pubDate>
+      
+      <guid>https://blog.illiterate.info/posts/ch9_development-of-pd-biomarker-for-phi-trials/</guid>
+      <description>PD biomarkers are molecular indicators of the drug’s effect on the target in an organism
+  Based on the understanding of molecular biology of cancer and the role of the tumor environment
+  Can be used to examine the link between a drug treatment, the target effects, and a biological tumor response
+  for selecting the optimal population
+  Usually lack of standardization and validation
+  Growing interest in PD biomarkers in phase I</description>
+    </item>
+    
     <item>
       <title>Chapter 7 Attribution and Management of Toxicities in PhI Trials</title>
       <link>https://blog.illiterate.info/posts/ch7_attribution-and-management-of-toxicities-in-phi-trials/</link>
