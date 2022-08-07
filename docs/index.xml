@@ -6,7 +6,17 @@
     <description>Recent content on Illiterate&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Mar 2021 16:05:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 10:25:18 +0800</lastBuildDate><atom:link href="https://blog.illiterate.info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 7 Attribution and Management of Toxicities in PhI Trials</title>
+      <link>https://blog.illiterate.info/posts/ch7-attribution-and-management-of-toxicities-in-phi-trials/</link>
+      <pubDate>Tue, 09 Mar 2021 10:25:18 +0800</pubDate>
+      
+      <guid>https://blog.illiterate.info/posts/ch7-attribution-and-management-of-toxicities-in-phi-trials/</guid>
+      <description>In clinical research, attribution is the determination of whether a clinical event is related to the investigational treatment under study, or non-treatment causes, such as the underlying disease, or comorbidities. it is also referred to as “relatedness to study treatment” in published reports or as “causality” in certain regulatory contexts
+ In early-stage development, the use of attribution data is for safety assessment to ensure patient protection In later stages of development, the safety profile of an investigational drug is usually completed with key toxicities of special interest and less attention is paid to mild and expected adverse events  There are different causality reporting requirements between the FDA and EMA</description>
+    </item>
+    
     <item>
       <title>Chapter 8 Incorporating PK Into Oncology Ph1 Trials</title>
       <link>https://blog.illiterate.info/posts/ch8_strategies-for-incorporating-pk-into-oncology-ph1-trials/</link>
@@ -105,7 +115,7 @@ Key steps in pre-clinical drug discovery before FiH   Target selection
 还有一些物理限制：
  光猫在卧室1，直接连上路由的话，无线的信号会很差。加之弱电箱容量有限，无法将路由和光猫放一起。 各房间的有线网络从弱电箱中连出，其中只有卧室2有两个相邻有线接口。 客厅中的IPTV和NAS需放在一起，方便以后通过HDMI直接看NAS上的视频。 路由器和两台小一点的存储设备(Mao &amp;amp; Bai)，因为IPTV旁的地方有限，无法和NAS放在一起。只能放在客厅远离IPTV的有线网络接口附近。  现在想达到的要求是：
  家里联网的设备都尽量连在同一个网段内。 物尽其用，无必要不购买新设备。 在原来的基础上，改动越少越好。  花开 在网上学习了一堆网络知识，终于厘清了头绪。重点是：
- 将光猫信号连接到卧室2的主路由(AX3)后，再连接回卧室2的交换机。 AX3的性能强，将作为主路由。客厅的路由作为辅助路由。具体参考 多台无线路由能不能同名无缝切换？。重点如下：  1. 找性能最强的做主路由, 因为这一台路由会负责所有的DHCP. 预留几个IP给辅助路由器, 不要全部DHCP出去. 例如DHCP范围设成192.168.1.10~192.168.1.225. 预留192.168.1.2~9 2. 辅助的路由和主路由链好, 链接是LAN&amp;lt;-&amp;gt;LAN (不是LAN&amp;lt;-&amp;gt;WAN). 3. 辅助路由要关闭WAN, 关闭DHCP. 路由IP手动设成 192.168.1.X. 就是第一步预留段. 4. 辅助的路由SSID和无线密码, 密码制式全部都要一模一样. 不要一个WAP2 一个WPA的. 这样就应该可以了. 更详细的设置见路由器有线桥接的两种方式异同
+ 将光猫信号连接到卧室2的主路由(AX3)后，再连接回卧室2的交换机。 AX3的性能强，将作为主路由。客厅的路由作为辅助路由。具体参考 多台无线路由能不能同名无缝切换？。重点如下：  1. 找性能最强的做主路由, 因为这一台路由会负责所有的DHCP. 预留几个IP给辅助路由器, 不要全部DHCP出去. 例如DHCP范围设成192.168.1.10~192.168.1.225. 预留192.168.1.2~92. 辅助的路由和主路由链好, 链接是LAN&amp;lt;-&amp;gt;LAN (不是LAN&amp;lt;-&amp;gt;WAN).3. 辅助路由要关闭WAN, 关闭DHCP. 路由IP手动设成 192.168.1.X. 就是第一步预留段.4. 辅助的路由SSID和无线密码, 密码制式全部都要一模一样. 不要一个WAP2 一个WPA的. 这样就应该可以了.更详细的设置见路由器有线桥接的两种方式异同
 修改后的网络图
 担心：
  两个路由器之间的LAN&amp;lt;-&amp;gt;LAN连接中间有一个交换机，是否会出现问题？没问题 外部访问的流量全部通过R2S软路由，是否稳定？是否可以作为旁路由? 旁路由更佳  理想的网络状态是大部分上网的流量不经过软路由，需要KX上网的设备才经过软路由，减少软路由的负荷。
